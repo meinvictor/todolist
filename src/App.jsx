@@ -20,6 +20,7 @@ function App() {
                 setEditTodo={setEditTodo}
             />
             <TodoList todos={todos} setTodos={setTodos} editTodo={editTodo} setEditTodo={setEditTodo} />
+        <div className="cat"></div>
         </div>
     );
 }
